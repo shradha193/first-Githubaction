@@ -7,3 +7,8 @@ jobs:
       steps:
        - name: Print greeting
          run: echo "Hello, world!"
+         
+       - name: Print greetings at a time
+         run: |
+          echo "Hello Guys"
+          echo "Enjoy you Day!"
